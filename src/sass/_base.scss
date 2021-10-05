@@ -1,0 +1,42 @@
+/** 
+-Import Google Fonts and Define font variables
+-Define color varibalbes
+-Reset CSS properties(margin, padding)
+*/
+
+// Google Font
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap");
+
+// Font variable
+$manrope: "Manrope", sans-serif;
+
+// Colors
+:root {
+  --color-light-green: hsl(170, 80, 58);
+  --color-dark-blue: hsl(206, 84, 22);
+  --color-gray: hsl(225, 14, 53);
+  --color-black: hsl(230, 60, 8);
+  --color-red: hsl(343, 100, 58);
+  --color-white: hsl(0, 0, 100);
+}
+
+// Resetting
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $manrope;
+}
