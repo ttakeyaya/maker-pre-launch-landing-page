@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [solution](https://github.com/ttakeyaya/maker-pre-launch-landing-page)
 - Live Site URL: [live](https://ttakeyaya.github.io/maker-pre-launch-landing-page/src/index.html)
 
 ## My process
