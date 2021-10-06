@@ -1,23 +1,23 @@
 /** 
--Import Google Fonts and Define font variables
--Define color varibalbes
+-Import Google Font and Define font variable
+-Define color variables
 -Reset CSS properties(margin, padding)
 */
 
 // Google Font
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;500;800&display=swap");
 
 // Font variable
 $manrope: "Manrope", sans-serif;
 
 // Colors
 :root {
-  --color-light-green: hsl(170, 80, 58);
-  --color-dark-blue: hsl(206, 84, 22);
-  --color-gray: hsl(225, 14, 53);
-  --color-black: hsl(230, 60, 8);
-  --color-red: hsl(343, 100, 58);
-  --color-white: hsl(0, 0, 100);
+  --color-light-green: #3ee9e5;
+  --color-dark-blue: #093f68;
+  --color-gray: #777f98;
+  --color-black: #080c20;
+  --color-error-red: #ff2965;
+  --color-white: #ffffff;
 }
 
 // Resetting
@@ -39,4 +39,8 @@ html {
 
 body {
   font-family: $manrope;
+  font-size: 1.5rem;
+
+  height: 100vh;
+  background: var(--color-black);
 }

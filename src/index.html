@@ -5,87 +5,126 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <title>Frontend Mentor | Maker pre-launch landing page</title>
-  
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-  <header>
-    <p><img src="./assets/logo.svg" alt="maker logo"></p>
-    <img src="./assets/illustration-hero-mobile.png" alt="the illsutration of people working">
+  <header class="header">
+    <p>
+      <img src="./assets/logo.svg" alt="maker logo">
+    </p>
+    <div class="header__image-container">
+      <!-- container for manupulating background images -->
+    </div>
+
   </header>
-  <main>
-    <section>
-      <h1>Get paid for the work you love to do.</h1>
-      <p>
+  <main class="main">
+    <section class="intro">
+      <h1 class="intro__title">
+        Get paid for the work you <span class="intro__title-b">love</span> to do.
+      </h1>
+      <p class="intro__body">
         The 9-5 grind is so last century. We believe in living life on your 
         own terms. Whether you’re looking to escape the rat race or set up 
         a side hustle, we’ve got you covered.
       </p>
-      <article>
-        <h3>Indulge your passions</h3>
-        <p>
+      <p class="intro__scroll-icon">
+        <img src="./assets/icon-scroll.svg" alt="scroll icon">
+      </p>
+      <article class="intro__feature">
+        <figure class="intro__feature__logo-container">
+          <div class="logo-outer-passion">
+            <img src="./assets/illustration-passions.svg" alt="passion logo">
+          </div>
+        </figure>
+        <h3 class="intro__feature__title">Indulge your passions</h3>
+        <p class="intro__feature__body">
           Your passions shouldn't be just for the weekend. Earn a living doing what you love.
         </p>
       </article>
-      <article>
-        <h3>Gain financial freedom</h3>
-        <p>
+      <article class="intro__feature">
+        <figure class="intro__feature__logo-container">
+          <div class="logo-outer-freedom">
+            <img src="./assets/illustration-financial-freedom.svg" alt="financial freedom logo">
+          </div>
+        </figure>
+        <h3 class="intro__feature__title">Gain financial freedom</h3>
+        <p class="intro__feature__body">
           Start making money work for you. There’s nothing quite like earning while you sleep. 
         </p>
       </article>
-      <article>
-        <h3>Choose your lifestyle</h3>
-        <p>
+      <article class="intro__feature">
+        <figure class="intro__feature__logo-container">
+          <div class="logo-outer-lifestyle">
+            <img src="./assets/illustration-lifestyle.svg" alt="lifestyle logo">
+          </div>
+        </figure>
+        <h3 class="intro__feature__title">Choose your lifestyle</h3>
+        <p class="intro__feature__body">
           Own your daily schedule. Fancy a lie-in? Go for it! Take charge of your week.
         </p>
       </article>
-      <article>
-        <h3>Work from anywhere</h3>
-        <p>
+      <article class="intro__feature anywhere-container">
+        <figure class="intro__feature__logo-container">
+          <div class="logo-outer-anywhere">
+            <img src="./assets/illustration-work-anywhere.svg" alt="work from anywhere logo">
+          </div>
+        </figure>
+        <h3 class="intro__feature__title">Work from anywhere</h3>
+        <p class="intro__feature__body">
           Selling online means not being pinned down. Want to work AND travel? Go for it!
         </p>
       </article>
     </section>
-    <section>
-      <h2>Our pricing plans</h3>
-      <p>
-        We only make money when our creators make money. Our plans are always affordable, and 
-        it’s completely free to get started.
-      </p>
-      <article>
-        <h3>Dip your toe</h3>
-        <p>
-          Just getting started? No problem at all! Our free plan will take you a long way.
+    <section class="plans">
+      <div class="title-container">
+        <h2 class="plans__title">Our pricing plans</h3>
+        <p class="plans__description">
+          We only make money when our creators make money. Our plans are always affordable, and 
+          it’s completely free to get started.
         </p>
-        <h4>Free</h4>
-        <ul>
-          <li>Unlimited products</li>
-          <li>Basic analytics</li>
-          <li>Limited marketplace exposure</li>
-          <li>10% fee per transaction</li>
+      </div>
+      <article class="plan free-container">
+        <div class="plan-title-container ">
+          <h3 class="plan__title dip-title">Dip your toe</h3>
+          <p class="plan__body">
+            Just getting started? No problem at all! Our free plan will take you a long way.
+          </p>
+        </div>
+        <h4 class="plan__amount free">Free</h4>
+        <ul class="plan__features">
+          <li class="plan__features__item text-light check-light">Unlimited products</li>
+          <li class="plan__features__item check-light">Basic analytics</li>
+          <li class="plan__features__item check-light">Limited marketplace exposure</li>
+          <li class="plan__features__item check-light">10% fee per transaction</li>
         </ul>
       </article>
-      <article>
-        <h3>Dive right in</h3>
-        <p>
-          Ready for the big time? Our paid plan will help you take your business to the next level.
-        </p>
-        <h4>$25.00 /month</h4>
-        <ul>
-          <li>Custom domain</li>
-          <li>Advanced analytics and reports</li>
-          <li>High marketplace visibility</li>
-          <li>5% fee per transaction</li>
+      <article class="plan paid-container">
+        <div class="plan-title-container ">
+          <h3 class="plan__title">Dive right in</h3>
+          <p class="plan__body">
+            Ready for the big time? Our paid plan will help you take your business to the next level.
+          </p>
+        </div>
+        <h4 class="plan__amount paied">$25.00 <span class="text-sm">/month</span></h4>
+        <ul class="plan__features">
+          <li class="plan__features__item text-light">Custom domain</li>
+          <li class="plan__features__item">Advanced analytics and reports</li>
+          <li class="plan__features__item">High marketplace visibility</li>
+          <li class="plan__features__item">5% fee per transaction</li>
         </ul>
       </article>
     </section>
+    <section class="notification">
+      <div class="title-container">
+        <h3 class="notification__title">Get notified when we launch</h3>
+      </div>
+      <form class="notification__form">
+        <input type="email" value="Email address" class="input">
+        <button type="submit" class="btn">Get notified</button>
+      </form>
+    </section>
   </main>
-  <footer>
-    <p>Get notified when we launch</p>
-    <form >
-      <input type="email" value="Email address">
-      <button type="submit">Get notified</button>
-    </form>
-  </footer>
+  
   <script src="./js/validate.js"></script>
 </body>
 </html>
