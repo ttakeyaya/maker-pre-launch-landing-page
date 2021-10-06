@@ -351,17 +351,38 @@ body {
 @media screen and (min-width: 1120px) {
   .plans {
     margin-top: 202px;
+    width: 92rem;
   }
 }
 .plans .title-container {
   text-align: center;
   margin-bottom: 5.6rem;
 }
+@media screen and (min-width: 1120px) {
+  .plans .title-container {
+    width: 54rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8rem;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .plans .plans-container {
+    display: flex;
+    align-items: center;
+  }
+}
 .plans__title {
   margin-bottom: 2.7rem;
   font-size: 2.4rem;
   color: var(--color-white);
   font-weight: 800;
+}
+@media screen and (min-width: 1120px) {
+  .plans__title {
+    font-size: 3.2rem;
+    margin-bottom: 2.4rem;
+  }
 }
 .plans__description {
   font-size: 1.5rem;
@@ -385,6 +406,11 @@ body {
     margin-left: auto;
   }
 }
+@media screen and (min-width: 1120px) {
+  .plan {
+    width: 44.5rem;
+  }
+}
 .plan.free-container {
   position: relative;
   background-color: var(--color-dark-blue);
@@ -394,6 +420,12 @@ body {
   position: absolute;
   content: url("../assets/icon-free.svg");
   top: -26px;
+}
+@media screen and (min-width: 1120px) {
+  .plan.free-container {
+    margin-right: 3rem;
+    align-self: center;
+  }
 }
 .plan.paid-container {
   position: relative;
@@ -405,6 +437,11 @@ body {
   content: url("../assets/icon-paid.svg");
   top: -30px;
 }
+@media screen and (min-width: 1120px) {
+  .plan.paid-container {
+    height: 450px;
+  }
+}
 .plan .plan-title-container {
   margin-bottom: 5.1rem;
   width: 26.8rem;
@@ -413,6 +450,11 @@ body {
   .plan .plan-title-container {
     margin-bottom: 2.4rem;
     width: 36.9rem;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .plan .plan-title-container {
+    padding-right: 1rem;
   }
 }
 .plan__title {
@@ -447,6 +489,11 @@ body {
 }
 .plan__features__item.text-light {
   font-weight: 200;
+}
+@media screen and (min-width: 1120px) {
+  .plan__features__item.text-light {
+    font-weight: 500;
+  }
 }
 .plan__features__item.check-light::before {
   position: absolute;
