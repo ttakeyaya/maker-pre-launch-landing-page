@@ -70,13 +70,19 @@ body {
   margin-top: 3.2rem;
   margin-bottom: 14.4rem;
 }
-.main .intro__feature {
+
+.header {
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.feature {
   margin-bottom: 5.6rem;
 }
-.main .intro__feature.anywhere-container {
+.feature.anywhere-container {
   margin-bottom: 0;
 }
-.main .intro__feature__logo-container {
+.feature__logo-container {
   background-color: var(--color-dark-blue);
   width: 12rem;
   height: 12.3rem;
@@ -86,48 +92,43 @@ body {
   justify-content: center;
   align-items: center;
 }
-.main .intro__feature__logo-container .logo-outer-passion {
+.feature__logo-container .logo-outer-passion {
   width: 6.6rem;
   height: 8rem;
 }
-.main .intro__feature__logo-container .logo-outer-passion > img {
+.feature__logo-container .logo-outer-passion > img {
   width: 100%;
 }
-.main .intro__feature__logo-container .logo-outer-freedom {
+.feature__logo-container .logo-outer-freedom {
   width: 5.5rem;
   height: 6.7rem;
 }
-.main .intro__feature__logo-container .logo-outer-freedom > img {
+.feature__logo-container .logo-outer-freedom > img {
   width: 100%;
 }
-.main .intro__feature__logo-container .logo-outer-lifestyle {
+.feature__logo-container .logo-outer-lifestyle {
   width: 6rem;
   height: 7.1rem;
 }
-.main .intro__feature__logo-container .logo-outer-lifestyle > img {
+.feature__logo-container .logo-outer-lifestyle > img {
   width: 100%;
 }
-.main .intro__feature__logo-container .logo-outer-anywhere {
+.feature__logo-container .logo-outer-anywhere {
   width: 7.8rem;
   height: 5.6rem;
 }
-.main .intro__feature__logo-container .logo-outer-anywhere > img {
+.feature__logo-container .logo-outer-anywhere > img {
   width: 100%;
 }
-.main .intro__feature__title {
+.feature__title {
   margin-top: 3.2rem;
   margin-bottom: 1.1rem;
   font-size: 1.8rem;
   color: var(--color-white);
 }
-.main .intro__feature__body {
+.feature__body {
   line-height: 2.5rem;
   color: var(--color-gray);
-}
-
-.header {
-  padding-top: 4rem;
-  text-align: center;
 }
 
 .plans {

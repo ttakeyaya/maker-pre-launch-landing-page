@@ -34,59 +34,5 @@
       margin-top: 3.2rem;
       margin-bottom: 14.4rem;
     }
-    &__feature {
-      margin-bottom: 5.6rem;
-      &.anywhere-container {
-        margin-bottom: 0;
-      }
-      &__logo-container {
-        background-color: var(--color-dark-blue);
-        width: 12rem;
-        height: 12.3rem;
-        border-radius: 4rem;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .logo-outer-passion {
-          width: 6.6rem;
-          height: 8rem;
-          & > img {
-            width: 100%;
-          }
-        }
-        .logo-outer-freedom {
-          width: 5.5rem;
-          height: 6.7rem;
-          & > img {
-            width: 100%;
-          }
-        }
-        .logo-outer-lifestyle {
-          width: 6rem;
-          height: 7.1rem;
-          & > img {
-            width: 100%;
-          }
-        }
-        .logo-outer-anywhere {
-          width: 7.8rem;
-          height: 5.6rem;
-          & > img {
-            width: 100%;
-          }
-        }
-      }
-      &__title {
-        margin-top: 3.2rem;
-        margin-bottom: 1.1rem;
-        font-size: 1.8rem;
-        color: var(--color-white);
-      }
-      &__body {
-        line-height: 2.5rem;
-        color: var(--color-gray);
-      }
-    }
   }
 }
