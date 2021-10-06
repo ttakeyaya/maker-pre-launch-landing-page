@@ -36,25 +36,18 @@ body {
   background: var(--color-black);
 }
 
-.header {
-  padding-top: 4rem;
-  text-align: center;
-}
-.header__image-container {
+.main__image-container {
   background: url("../assets/illustration-hero-mobile.png");
   width: 100%;
   height: 23.3rem;
   background-size: cover;
+  background-repeat: no-repeat;
   margin-top: 6.55rem;
   margin-bottom: 4.75rem;
 }
-
-.main {
+.main .intro {
   margin: 0 auto;
   width: 32.7rem;
-}
-.main .intro {
-  width: 100%;
   text-align: center;
 }
 .main .intro__title {
@@ -131,76 +124,85 @@ body {
   line-height: 2.5rem;
   color: var(--color-gray);
 }
-.main .plans {
+
+.header {
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.plans {
+  margin: 0 auto;
+  width: 32.7rem;
   margin-top: 14.4rem;
 }
-.main .plans .title-container {
+.plans .title-container {
   text-align: center;
   margin-bottom: 5.6rem;
 }
-.main .plans__title {
+.plans__title {
   margin-bottom: 2.7rem;
   font-size: 2.4rem;
   color: var(--color-white);
   font-weight: 800;
 }
-.main .plans__description {
+.plans__description {
   font-size: 1.5rem;
   color: var(--color-gray);
   line-height: 2.5rem;
 }
-.main .plan {
+
+.plan {
   border-radius: 1rem;
   margin-bottom: 6.5rem;
   padding-left: 3rem;
   padding-top: 4.9rem;
   padding-bottom: 3.2rem;
 }
-.main .plan.free-container {
+.plan.free-container {
   background-color: var(--color-dark-blue);
   color: var(--color-white);
 }
-.main .plan.paid-container {
+.plan.paid-container {
   background-color: var(--color-light-green);
   color: #080c20;
 }
-.main .plan .plan-title-container {
+.plan .plan-title-container {
   margin-bottom: 5.1rem;
 }
-.main .plan__title {
+.plan__title {
   font-size: 1.8rem;
   font-weight: 800;
   margin-bottom: 1.9rem;
 }
-.main .plan__body {
+.plan__body {
   line-height: 2.5rem;
   font-weight: 200;
 }
-.main .plan__amount {
+.plan__amount {
   font-size: 4rem;
   margin-bottom: 1.9rem;
 }
-.main .plan__amount .text-sm {
+.plan__amount .text-sm {
   font-size: 1.5rem;
   font-weight: 200;
   letter-spacing: 0.1rem;
 }
-.main .plan__features {
+.plan__features {
   list-style: none;
 }
-.main .plan__features__item {
+.plan__features__item {
   position: relative;
   font-weight: 500;
   padding-left: 28px;
   margin-bottom: 1.2rem;
 }
-.main .plan__features__item:last-child {
+.plan__features__item:last-child {
   margin-bottom: 0;
 }
-.main .plan__features__item.text-light {
+.plan__features__item.text-light {
   font-weight: 200;
 }
-.main .plan__features__item.check-light::before {
+.plan__features__item.check-light::before {
   position: absolute;
   content: " ";
   display: inline-block;
@@ -211,7 +213,7 @@ body {
   background-image: url("../assets/icon-check-green.svg");
   background-repeat: no-repeat;
 }
-.main .plan__features__item::before {
+.plan__features__item::before {
   position: absolute;
   content: " ";
   display: inline-block;
@@ -222,27 +224,30 @@ body {
   background-image: url("../assets/icon-check.svg");
   background-repeat: no-repeat;
 }
-.main .notification {
+
+.notification {
   margin-top: 14.4rem;
   margin-bottom: 16rem;
   text-align: center;
 }
-.main .notification .title-container {
+.notification .title-container {
   background-image: url("../assets/bg-footer-squiggle.svg");
   background-size: cover;
   background-position: top;
 }
-.main .notification__title {
+.notification__title {
   font-size: 2.4rem;
   padding: 0 4rem;
   color: var(--color-white);
 }
-.main .notification__form {
+.notification__form {
+  margin: 0 auto;
+  width: 32.7rem;
   margin-top: 3.2rem;
   display: flex;
   flex-direction: column;
 }
-.main .notification__form .input {
+.notification__form .input {
   padding: 1.5rem;
   border: none;
   border-radius: 2rem;
@@ -252,7 +257,7 @@ body {
   font-weight: 800;
   line-height: 2.5rem;
 }
-.main .notification__form .btn {
+.notification__form .btn {
   padding: 1.5rem;
   background-color: var(--color-light-green);
   border: none;

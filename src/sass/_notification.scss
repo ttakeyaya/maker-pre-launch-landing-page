@@ -1,0 +1,41 @@
+.notification {
+  margin-top: 14.4rem;
+  margin-bottom: 16rem;
+  text-align: center;
+  .title-container {
+    background-image: url("../assets/bg-footer-squiggle.svg");
+    background-size: cover;
+    background-position: top;
+  }
+  &__title {
+    font-size: 2.4rem;
+    padding: 0 4rem;
+    color: var(--color-white);
+  }
+  &__form {
+    margin: 0 auto;
+    width: 32.7rem;
+    margin-top: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    .input {
+      padding: 1.5rem;
+      border: none;
+      border-radius: 2rem;
+      margin-bottom: 2.4rem;
+      background-color: var(--color-dark-blue);
+      color: var(--color-gray);
+      font-weight: 800;
+      line-height: 2.5rem;
+    }
+    .btn {
+      padding: 1.5rem;
+      background-color: var(--color-light-green);
+      border: none;
+      border-radius: 3rem;
+      font-weight: 800;
+      color: var(--color-dark-blue);
+      line-height: 2.5rem;
+    }
+  }
+}
