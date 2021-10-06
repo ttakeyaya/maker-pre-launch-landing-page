@@ -23,11 +23,13 @@
         <h1 class="intro__title">
           Get paid for the work you <span class="intro__title-b">love</span> to do.
         </h1>
-        <p class="intro__body">
-          The 9-5 grind is so last century. We believe in living life on your 
-          own terms. Whether you’re looking to escape the rat race or set up 
-          a side hustle, we’ve got you covered.
-        </p>
+        <div class="body-container">
+          <p class="intro__body">
+            The 9-5 grind is so last century. We believe in living life on your 
+            own terms. Whether you’re looking to escape the rat race or set up 
+            a side hustle, we’ve got you covered.
+          </p>
+        </div>
         <p class="intro__scroll-icon">
           <img src="./assets/icon-scroll.svg" alt="scroll icon">
         </p>
@@ -37,49 +39,65 @@
 
     <!-- feature section starts -->
     <section class="features">
-      <article class="feature">
-        <figure class="feature__logo-container">
-          <div class="logo-outer-passion">
-            <img src="./assets/illustration-passions.svg" alt="passion logo">
+      <article class="feature right">
+        <div class="feature-container">
+          <figure class="feature__logo-container">
+            <div class="logo-outer-passion">
+              <img src="./assets/illustration-passions.svg" alt="passion logo">
+            </div>
+          </figure>
+          <div class="feature-text-container">
+            <h3 class="feature__title">Indulge your passions</h3>
+            <p class="feature__body">
+              Your passions shouldn't be just for the weekend. Earn a living doing what you love.
+            </p>
           </div>
-        </figure>
-        <h3 class="feature__title">Indulge your passions</h3>
-        <p class="feature__body">
-          Your passions shouldn't be just for the weekend. Earn a living doing what you love.
-        </p>
+        </div>
       </article>
       <article class="feature">
-        <figure class="feature__logo-container">
-          <div class="logo-outer-freedom">
-            <img src="./assets/illustration-financial-freedom.svg" alt="financial freedom logo">
+        <div class="feature-container">
+          <figure class="feature__logo-container">
+            <div class="logo-outer-freedom">
+              <img src="./assets/illustration-financial-freedom.svg" alt="financial freedom logo">
+            </div>
+          </figure>
+          <div class="feature-text-container">
+            <h3 class="feature__title">Gain financial freedom</h3>
+            <p class="feature__body">
+              Start making money work for you. There’s nothing quite like earning while you sleep. 
+            </p>
           </div>
-        </figure>
-        <h3 class="feature__title">Gain financial freedom</h3>
-        <p class="feature__body">
-          Start making money work for you. There’s nothing quite like earning while you sleep. 
-        </p>
+        </div>
       </article>
-      <article class="feature">
-        <figure class="feature__logo-container">
-          <div class="logo-outer-lifestyle">
-            <img src="./assets/illustration-lifestyle.svg" alt="lifestyle logo">
+      <article class="feature right">
+        <div class="feature-container">
+          <figure class="feature__logo-container">
+            <div class="logo-outer-lifestyle">
+              <img src="./assets/illustration-lifestyle.svg" alt="lifestyle logo">
+            </div>
+          </figure>
+          <div class="feature-text-container">
+            <h3 class="feature__title">Choose your lifestyle</h3>
+            <p class="feature__body">
+              Own your daily schedule. Fancy a lie-in? Go for it! Take charge of your week.
+            </p>
           </div>
-        </figure>
-        <h3 class="feature__title">Choose your lifestyle</h3>
-        <p class="feature__body">
-          Own your daily schedule. Fancy a lie-in? Go for it! Take charge of your week.
-        </p>
+        </div>
       </article>
       <article class="feature anywhere-container">
-        <figure class="feature__logo-container">
-          <div class="logo-outer-anywhere">
-            <img src="./assets/illustration-work-anywhere.svg" alt="work from anywhere logo">
+        <div class="feature-container">
+          <figure class="feature__logo-container">
+            <div class="logo-outer-anywhere">
+              <img src="./assets/illustration-work-anywhere.svg" alt="work from anywhere logo">
+            </div>
+          </figure>
+          <div class="feature-text-container">
+            <h3 class="feature__title">Work from anywhere</h3>
+            <p class="feature__body">
+              Selling online means not being pinned down. Want to work AND travel? Go for it!
+            </p>
           </div>
-        </figure>
-        <h3 class="feature__title">Work from anywhere</h3>
-        <p class="feature__body">
-          Selling online means not being pinned down. Want to work AND travel? Go for it!
-        </p>
+        </div>
       </article>
       <!-- feature articles end -->
     </section>
@@ -93,7 +111,8 @@
           it’s completely free to get started.
         </p>
       </div>
-      <article class="plan free-container">
+      <div class="plans-container">
+        <article class="plan free-container">
         <div class="plan-title-container ">
           <h3 class="plan__title dip-title">Dip your toe</h3>
           <p class="plan__body">
@@ -107,9 +126,9 @@
           <li class="plan__features__item check-light">Limited marketplace exposure</li>
           <li class="plan__features__item check-light">10% fee per transaction</li>
         </ul>
-      </article>
+        </article>
 
-      <article class="plan paid-container">
+        <article class="plan paid-container">
         <div class="plan-title-container ">
           <h3 class="plan__title">Dive right in</h3>
           <p class="plan__body">
@@ -123,18 +142,27 @@
           <li class="plan__features__item">High marketplace visibility</li>
           <li class="plan__features__item">5% fee per transaction</li>
         </ul>
-      </article>
+        </article>
+      </div>
       <!-- plan section -->
     </section>
     <!-- plans section end -->
     <section class="notification">
-      <div class="title-container">
-        <h3 class="notification__title">Get notified when we launch</h3>
-      </div>
-      <form class="notification__form">
-        <input type="email" value="Email address" class="input">
-        <button type="submit" class="btn">Get notified</button>
-      </form>
+        <div class="title-container">
+          <div class="title-container-inner">
+            <h3 class="notification__title">Get notified when we launch</h3>
+          </div>
+        </div>
+        <div class="form-container">
+          <form class="notification__form">
+              <div class="input-container">
+                <input type="email" value="Email    address" class="input">
+              </div>
+              <div class="btn-container">
+                <button type="submit"   class="btn">Get notified</button>
+              </div>
+          </form>
+        </div>
     </section>
     <!-- notification section end -->
   </main>
