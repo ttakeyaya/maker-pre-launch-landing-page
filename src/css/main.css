@@ -603,6 +603,7 @@ body {
   padding: 1.5rem 1.5rem 1.5rem 2rem;
   border-radius: 3rem;
   border: none;
+  outline: none;
   background-color: var(--color-dark-blue);
   color: var(--color-gray);
   font-weight: 800;
@@ -611,6 +612,18 @@ body {
   .notification .input {
     width: 32rem;
   }
+}
+.notification .input:focus {
+  border: none;
+}
+.notification .input-container {
+  position: relative;
+}
+.notification .input-container .warning {
+  position: absolute;
+  padding-left: 3rem;
+  color: var(--color-error-red);
+  display: none;
 }
 .notification .btn {
   width: 327px;
@@ -624,6 +637,16 @@ body {
   .notification .btn {
     width: 14rem;
   }
+}
+.notification .btn:hover {
+  border: 2px solid var(--color-light-green);
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+.notification .btn:active {
+  border: 2px solid var(--color-light-green);
+  background-color: var(--color-black);
+  color: var(--color-white);
 }
 .notification .btn-container {
   margin-top: 2.4rem;

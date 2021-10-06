@@ -66,11 +66,24 @@
     padding: 1.5rem 1.5rem 1.5rem 2rem;
     border-radius: 3rem;
     border: none;
+    outline: none;
     background-color: var(--color-dark-blue);
     color: var(--color-gray);
     font-weight: 800;
     @media screen and (min-width: 610px) {
       width: 32rem;
+    }
+    &:focus {
+      border: none;
+    }
+  }
+  .input-container {
+    position: relative;
+    .warning {
+      position: absolute;
+      padding-left: 3rem;
+      color: var(--color-error-red);
+      display: none;
     }
   }
   .btn {
@@ -83,6 +96,16 @@
     @media screen and (min-width: 610px) {
       width: 14rem;
     }
+    &:hover {
+      border: 2px solid var(--color-light-green);
+      background-color: var(--color-black);
+      color: var(--color-white);
+    }
+    &:active {
+      border: 2px solid var(--color-light-green);
+      background-color: var(--color-black);
+      color: var(--color-white);
+    }
   }
   .btn-container {
     margin-top: 2.4rem;
@@ -90,7 +113,5 @@
     @media screen and (min-width: 610px) {
       margin-top: 0;
     }
-  }
-  .input-container {
   }
 }

@@ -156,12 +156,14 @@
           </div>
         </div>
         <div class="form-container">
-          <form class="notification__form">
+          <form class="notification__form" name="notification" novalidate>
               <div class="input-container">
-                <input type="email" value="Email address" class="input">
+                <input type="email" value="Email address" class="input" name="email">
+                <div class="warning">Oops! That doesn't look like an email</div>
               </div>
+              
               <div class="btn-container">
-                <button type="submit"   class="btn">Get notified</button>
+                <button type="submit"   class="btn" name="submitBtn">Get notified</button>
               </div>
           </form>
         </div>
