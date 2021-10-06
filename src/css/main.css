@@ -164,6 +164,7 @@ body {
     padding-top: 4.8rem;
     padding-left: 3.9rem;
     text-align: left;
+    margin-bottom: 7.7rem;
   }
 }
 @media screen and (min-width: 1120px) {
@@ -280,6 +281,12 @@ body {
   width: 32.7rem;
   margin-top: 14.4rem;
 }
+@media screen and (min-width: 610px) {
+  .plans {
+    width: 57.3rem;
+    margin-top: 14.1rem;
+  }
+}
 .plans .title-container {
   text-align: center;
   margin-bottom: 5.6rem;
@@ -302,6 +309,15 @@ body {
   padding-left: 3rem;
   padding-top: 4.9rem;
   padding-bottom: 3.2rem;
+}
+@media screen and (min-width: 610px) {
+  .plan {
+    padding-left: 3.8rem;
+    padding-bottom: 4.8rem;
+    width: 44.5rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 .plan.free-container {
   position: relative;
@@ -326,6 +342,12 @@ body {
 .plan .plan-title-container {
   margin-bottom: 5.1rem;
   width: 26.8rem;
+}
+@media screen and (min-width: 610px) {
+  .plan .plan-title-container {
+    margin-bottom: 2.4rem;
+    width: 36.9rem;
+  }
 }
 .plan__title {
   font-size: 1.8rem;

@@ -2,7 +2,10 @@
   margin: 0 auto;
   width: 32.7rem;
   margin-top: 14.4rem;
-
+  @media screen and(min-width:610px) {
+    width: 57.3rem;
+    margin-top: 14.1rem;
+  }
   .title-container {
     text-align: center;
     margin-bottom: 5.6rem;
@@ -26,6 +29,13 @@
   padding-left: 3rem;
   padding-top: 4.9rem;
   padding-bottom: 3.2rem;
+  @media screen and(min-width:610px) {
+    padding-left: 3.8rem;
+    padding-bottom: 4.8rem;
+    width: 44.5rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
   &.free-container {
     position: relative;
     background-color: var(--color-dark-blue);
@@ -49,6 +59,10 @@
   .plan-title-container {
     margin-bottom: 5.1rem;
     width: 26.8rem;
+    @media screen and(min-width:610px) {
+      margin-bottom: 2.4rem;
+      width: 36.9rem;
+    }
   }
 
   &__title {
