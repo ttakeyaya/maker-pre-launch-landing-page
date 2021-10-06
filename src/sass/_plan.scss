@@ -27,15 +27,28 @@
   padding-top: 4.9rem;
   padding-bottom: 3.2rem;
   &.free-container {
+    position: relative;
     background-color: var(--color-dark-blue);
     color: var(--color-white);
+    &::before {
+      position: absolute;
+      content: url("../assets/icon-free.svg");
+      top: -26px;
+    }
   }
   &.paid-container {
+    position: relative;
     background-color: var(--color-light-green);
     color: #080c20;
+    &::before {
+      position: absolute;
+      content: url("../assets/icon-paid.svg");
+      top: -30px;
+    }
   }
   .plan-title-container {
     margin-bottom: 5.1rem;
+    width: 26.8rem;
   }
 
   &__title {

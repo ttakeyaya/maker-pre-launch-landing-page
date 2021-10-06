@@ -304,15 +304,28 @@ body {
   padding-bottom: 3.2rem;
 }
 .plan.free-container {
+  position: relative;
   background-color: var(--color-dark-blue);
   color: var(--color-white);
 }
+.plan.free-container::before {
+  position: absolute;
+  content: url("../assets/icon-free.svg");
+  top: -26px;
+}
 .plan.paid-container {
+  position: relative;
   background-color: var(--color-light-green);
   color: #080c20;
 }
+.plan.paid-container::before {
+  position: absolute;
+  content: url("../assets/icon-paid.svg");
+  top: -30px;
+}
 .plan .plan-title-container {
   margin-bottom: 5.1rem;
+  width: 26.8rem;
 }
 .plan__title {
   font-size: 1.8rem;
